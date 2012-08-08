@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet">
+<Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom"/>
+      <Borders/>
+      <Font/>
+      <Interior/>
+      <NumberFormat/>
+      <Protection/>
+    </Style>
+    <Style ss:ID="header">
+      <Borders>
+        <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+      </Borders>
+      <Font ss:Bold="1"/>
+      <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+    </Style>
+    <Style ss:ID="valuecolumn">
+      <Borders/>
+      <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+    </Style>
+  </Styles>
+  <ss:Worksheet ss:Name="Position">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Position X</Data></Cell>
+        <Cell><Data ss:Type="String">Position Y</Data></Cell>
+        <Cell><Data ss:Type="String">Position Z</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Collection</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">31.851</Data></Cell>
+        <Cell><Data ss:Type="Number">29.564</Data></Cell>
+        <Cell><Data ss:Type="Number">1.273</Data></Cell>
+        <Cell><Data ss:Type="String">um</Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="String">Position</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+</Workbook>

@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet">
+<Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom"/>
+      <Borders/>
+      <Font/>
+      <Interior/>
+      <NumberFormat/>
+      <Protection/>
+    </Style>
+    <Style ss:ID="header">
+      <Borders>
+        <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+      </Borders>
+      <Font ss:Bold="1"/>
+      <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+    </Style>
+    <Style ss:ID="valuecolumn">
+      <Borders/>
+      <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+    </Style>
+  </Styles>
+  <ss:Worksheet ss:Name="Overall">
+    <Table>
+      <Column/>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Variable</Data></Cell>
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Number of Spots per Time Point</Data></Cell>
+        <Cell><Data ss:Type="Number">1.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Total Number of Spots</Data></Cell>
+        <Cell><Data ss:Type="Number">1.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="Number"></Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Area">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">0.053</Data></Cell>
+        <Cell><Data ss:Type="String">um^2</Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Diameter">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">0.130</Data></Cell>
+        <Cell><Data ss:Type="String">um</Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Center Ch=1">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">0.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Center Ch=2">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">3986.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">2</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Center Ch=3">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">10349.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">3</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Max Ch=1">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">0.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Max Ch=2">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">6506.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">2</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Max Ch=3">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">10349.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">3</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Mean Ch=1">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">0.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Mean Ch=2">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">3049.875</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">2</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Mean Ch=3">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">8401.125</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">3</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Median Ch=1">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">0.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Median Ch=2">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">2125.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">2</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Median Ch=3">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">8008.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">3</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Min Ch=1">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">0.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Min Ch=2">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">1114.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">2</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Min Ch=3">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">6482.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">3</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity StdDev Ch=1">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">0.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity StdDev Ch=2">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">1660.365</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">2</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity StdDev Ch=3">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">1221.165</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">3</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Sum Ch=1">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">0.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Sum Ch=2">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">24399.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">2</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Intensity Sum Ch=3">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Channel</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">67209.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">3</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Position">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Position X</Data></Cell>
+        <Cell><Data ss:Type="String">Position Y</Data></Cell>
+        <Cell><Data ss:Type="String">Position Z</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Collection</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">31.851</Data></Cell>
+        <Cell><Data ss:Type="Number">29.564</Data></Cell>
+        <Cell><Data ss:Type="Number">1.273</Data></Cell>
+        <Cell><Data ss:Type="String">um</Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="String">Position</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Time">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">0.000</Data></Cell>
+        <Cell><Data ss:Type="String">s</Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Time Index">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">0.000</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+  <ss:Worksheet ss:Name="Volume">
+    <Table>
+      <Column ss:StyleID="valuecolumn" ss:AutoFitWidth="1" ss:Width="100"/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Column/>
+      <Row ss:StyleID="header">
+        <Cell><Data ss:Type="String">Value</Data></Cell>
+        <Cell><Data ss:Type="String">Unit</Data></Cell>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">Time</Data></Cell>
+        <Cell><Data ss:Type="String">ID</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">0.001</Data></Cell>
+        <Cell><Data ss:Type="String">um^3</Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">0</Data></Cell>
+      </Row>
+    </Table>
+  <x:WorksheetOptions/>
+  </ss:Worksheet>
+</Workbook>
