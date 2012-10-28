@@ -9613,9 +9613,9 @@
         <Cell><Data ss:Type="Number">0</Data></Cell>
       </Row>
       <Row>
-        <Cell><Data ss:Type="Number">57.119</Data></Cell>
-        <Cell><Data ss:Type="Number">27.497</Data></Cell>
-        <Cell><Data ss:Type="Number">1.821</Data></Cell>
+        <Cell><Data ss:Type="Number">64.207</Data></Cell>
+        <Cell><Data ss:Type="Number">21.765</Data></Cell>
+        <Cell><Data ss:Type="Number">2.220</Data></Cell>
         <Cell><Data ss:Type="String">um</Data></Cell>
         <Cell><Data ss:Type="String">Spot</Data></Cell>
         <Cell><Data ss:Type="String">Position</Data></Cell>
@@ -9773,9 +9773,9 @@
         <Cell><Data ss:Type="Number">16</Data></Cell>
       </Row>
       <Row>
-        <Cell><Data ss:Type="Number">64.207</Data></Cell>
-        <Cell><Data ss:Type="Number">21.765</Data></Cell>
-        <Cell><Data ss:Type="Number">2.220</Data></Cell>
+        <Cell><Data ss:Type="Number">57.119</Data></Cell>
+        <Cell><Data ss:Type="Number">27.497</Data></Cell>
+        <Cell><Data ss:Type="Number">1.821</Data></Cell>
         <Cell><Data ss:Type="String">um</Data></Cell>
         <Cell><Data ss:Type="String">Spot</Data></Cell>
         <Cell><Data ss:Type="String">Position</Data></Cell>

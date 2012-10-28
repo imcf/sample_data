@@ -694,6 +694,36 @@
         <Cell><Data ss:Type="Number">1</Data></Cell>
         <Cell><Data ss:Type="Number">0</Data></Cell>
       </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">34.207</Data></Cell>
+        <Cell><Data ss:Type="Number">24.765</Data></Cell>
+        <Cell><Data ss:Type="Number">3.220</Data></Cell>
+        <Cell><Data ss:Type="String">um</Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="String">Position</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">72.391</Data></Cell>
+        <Cell><Data ss:Type="Number">23.804</Data></Cell>
+        <Cell><Data ss:Type="Number">1.824</Data></Cell>
+        <Cell><Data ss:Type="String">um</Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="String">Position</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">2</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="Number">22.594</Data></Cell>
+        <Cell><Data ss:Type="Number">17.175</Data></Cell>
+        <Cell><Data ss:Type="Number">2.861</Data></Cell>
+        <Cell><Data ss:Type="String">um</Data></Cell>
+        <Cell><Data ss:Type="String">Spot</Data></Cell>
+        <Cell><Data ss:Type="String">Position</Data></Cell>
+        <Cell><Data ss:Type="Number">1</Data></Cell>
+        <Cell><Data ss:Type="Number">3</Data></Cell>
+      </Row>
     </Table>
   <x:WorksheetOptions/>
   </ss:Worksheet>
