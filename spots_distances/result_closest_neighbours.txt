@@ -1,5 +1,7 @@
 Processing file: TESTDATA/spots_distances/spots_green_single_ws-all.xml
 Processing file: TESTDATA/spots_distances/spots_red_multi_ws-all.xml
+Reference objects: 4
+Candidate objects: 50
 
 Calculating closest neighbour.
 Reference: 		[0]	(31.851, 29.564, 1.273)
