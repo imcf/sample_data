@@ -1,5 +1,5 @@
-Processing file: TESTDATA/spots_distances/spots_green_single_ws-all.xml
-Processing file: TESTDATA/spots_distances/spots_red_multi_ws-all.xml
+References file: TESTDATA/spots_distances/spots_green_single_ws-all.xml
+Candidates file: TESTDATA/spots_distances/spots_red_multi_ws-all.xml
 Reference objects: 4
 Candidate objects: 50
 
