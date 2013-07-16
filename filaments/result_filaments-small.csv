@@ -1,0 +1,12 @@
+input filename;TESTDATA/filaments/testdata-filaments-small.csv
+
+distance results
+largest distance points (indices);(12, 18)
+coordinates of point 12;[  8.8263  96.898   29.476 ]
+coordinates of point 18;[ 11.385  74.333  28.113]
+distance;22.7504711971
+
+area results calculated by triangular tesselation
+longest transversal edge;9.781778599007442
+overall area;84.457420081253872
+perimeter;56.76863749019131
