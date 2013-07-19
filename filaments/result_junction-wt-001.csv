@@ -1,0 +1,12 @@
+input filename;TESTDATA/filaments/testdata-junction-wt-001.csv
+
+distance results
+largest distance points (indices);(26, 111)
+coordinates of point 26;[ 87.287  75.215  10.899]
+coordinates of point 111;[ 95.536  63.869  19.955]
+distance;16.6969713721
+
+area results calculated by triangular tesselation
+longest transversal edge;4.5869639196313754
+overall area;51.724431525810033
+perimeter;39.327132298515039
