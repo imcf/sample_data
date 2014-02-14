@@ -1,7 +1,8 @@
-// stitching macro for mosaic
+name="mosaic";
+print("Stitching macro for dataset [" + name + "]");
 input_dir="";
 if(input_dir == "") {
-	msg = "Select directory 'mosaic'";
+	msg = "Select directory '" + name + "'";
 	input_dir = getDirectory(msg);
 }
 output_dir=input_dir;
@@ -31,15 +32,15 @@ for (id=0; id<0; id++) {
 	ome_tiff = "mosaic_" + IJ.pad(id, padlen) + ".ome.tif ";
 	param = tpl + "layout_file=" + layout_file;
 	print("===========================================");
-	print("*** Processing file: " + layout_file);
+	print("*** [" + name + "]: processing " + layout_file);
 	run("Grid/Collection stitching", param);
 	bfexp  = "save=" + output_dir + "\\" + ome_tiff + " ";
 	bfexp += "compression=Uncompressed";
-	print("*** Finished processing file: " + layout_file);
+	print("*** [" + name + "]: finished " + layout_file);
 	print("*** Exporting to OME-TIFF: " + ome_tiff);
 	run("Bio-Formats Exporter", bfexp);
 	close();
 	print("*** Finished exporting to OME-TIFF.");
 }
 print("===========================================");
-print("*** Finished processing 1 mosaics. ***)";
+print("[" + name + "]: processed 1 mosaics.");
