@@ -8,6 +8,8 @@ compute = true;  // whether to compute the overlap)
 input_dir = '';  // user will be asked if empty
 use_batch_mode = false;
 
+time_start = getTime();
+
 // END stitching macro HEAD
 
 
@@ -27,12 +29,17 @@ use_batch_mode=true;
  *   compute : boolean (whether to compute the overlap)
 \*/
 
+hr = "========================================";  // horizontal rule
+hr = hr + hr;
+
+print(hr);
 print("Stitching macro for dataset [" + name + "]");
 if(input_dir == "") {
 	msg = "Select directory for dataset '" + name + "'";
 	input_dir = getDirectory(msg);
 }
-output_dir=input_dir;
+output_dir = input_dir;
+sep = File.separator;
 
 setBatchMode(use_batch_mode);
 
@@ -56,19 +63,22 @@ for (id = 0; id < mcount; id++) {
 	layout_file = "mosaic_" + IJ.pad(id, padlen) + ".txt";
 	ome_tiff = "mosaic_" + IJ.pad(id, padlen) + ".ome.tif ";
 	param = tpl + "layout_file=" + layout_file;
-	print("===========================================");
+	print(hr);
 	print("*** [" + name + "]: processing " + layout_file);
 	run("Grid/Collection stitching", param);
-	bfexp  = "save=" + output_dir + "\\" + ome_tiff + " ";
+	bfexp  = "save=" + output_dir + sep + ome_tiff + " ";
 	bfexp += "compression=Uncompressed";
 	print("*** [" + name + "]: finished " + layout_file);
-	print("*** Exporting to OME-TIFF: " + ome_tiff);
+	print("*** Exporting to OME-TIFF: " + output_dir + sep + ome_tiff);
 	run("Bio-Formats Exporter", bfexp);
 	close();
 	print("*** Finished exporting to OME-TIFF.");
 }
-print("===========================================");
+duration = (getTime() - time_start) / 1000;
+print(hr);
 print("[" + name + "]: processed " + mcount + " mosaics.");
+print("Overall duration: " + duration + "s");
+print(hr);
 
 setBatchMode(false);
 
