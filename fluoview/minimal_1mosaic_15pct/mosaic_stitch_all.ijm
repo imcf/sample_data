@@ -13,11 +13,11 @@ time_start = getTime();
 // END stitching macro HEAD
 
 
-name="mosaic";
-padlen=1;
-mcount=1;
+name = "mosaic";
+padlen = 1;
+mcount = 1;
 input_dir="";
-use_batch_mode=true;
+use_batch_mode = true;
 
 // BEGIN stitching macro BODY
 
