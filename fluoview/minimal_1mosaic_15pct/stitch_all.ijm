@@ -2,21 +2,37 @@
 
 // default values required to be set:
 name = '';  // the dataset name
-padlen = 0;  // padding length for mosaic numbering
-mcount = 0;  // total number of mosaics in dataset
 compute = true;  // whether to compute the overlap)
 input_dir = '';  // user will be asked if empty
 use_batch_mode = false;
 
 time_start = getTime();
 
+function get_tileconfig_files(dir) {
+    /* Generate an array with tile config files.
+     *
+     * Scan a directory for files matching a certain pattern and assemble a
+     * new array with the filenames.
+     */
+    pattern = 'mosaic_[0-9]+\.txt';
+    filelist = getFileList(dir);
+    tileconfigs = newArray(filelist.length);
+    ti = 0;  // the tileconfig index
+    for (fi=0; fi<filelist.length; fi++) {
+        if(matches(filelist[fi], pattern)) {
+            tileconfigs[ti] = filelist[fi];
+            //print(tileconfigs[ti]);
+            ti++;
+        }
+    }
+    return Array.trim(tileconfigs, ti);
+}
+
 // END stitching macro HEAD
 
 
-name = "mosaic";
-padlen = 1;
-mcount = 1;
-input_dir="";
+name = "minimal_1mosaic_15pct";
+input_dir="/home/noenc_ehrenfeu/usr/packages/imcf_toolbox/sample_data/fluoview/minimal_1mosaic_15pct/";
 use_batch_mode = true;
 
 // BEGIN stitching macro BODY
@@ -24,8 +40,6 @@ use_batch_mode = true;
 /*\
  * Variables REQUIRED to be set for body:
  *   name : str (dataset name)
- *   padlen : int (padding length for mosaic numbering)
- *   mcount : int (total number of mosaics in dataset)
  *   compute : boolean (whether to compute the overlap)
 \*/
 
@@ -53,7 +67,7 @@ setBatchMode(use_batch_mode);
 // stitching parameters template
 tpl  = "type=[Positions from file] ";
 tpl += "order=[Defined by TileConfiguration] ";
-tpl += "directory=" + input_dir + " ";
+tpl += "directory=[" + input_dir + "] ";
 tpl += "fusion_method=[Linear Blending] ";
 tpl += "regression_threshold=0.30 ";
 tpl += "max/avg_displacement_threshold=2.50 ";
@@ -66,10 +80,11 @@ if(compute) {
     tpl += "subpixel_accuracy ";
 }
 
-for (id = 0; id < mcount; id++) {
-	layout_file = "mosaic_" + IJ.pad(id, padlen) + ".txt";
-	ome_tiff = "mosaic_" + IJ.pad(id, padlen) + ".ome.tif ";
-	param = tpl + "layout_file=" + layout_file;
+tileconfigs = get_tileconfig_files(input_dir);
+for (i = 0; i < tileconfigs.length; i++) {
+    layout_file = tileconfigs[i];
+    ome_tiff = replace(layout_file, '.txt', '.ome.tif');
+	param = tpl + "layout_file=[" + layout_file + "]";
 	print(hr);
 	print("*** [" + name + "]: processing " + layout_file);
 	run("Grid/Collection stitching", param);
@@ -83,7 +98,7 @@ for (id = 0; id < mcount; id++) {
 }
 duration = (getTime() - time_start) / 1000;
 print(hr);
-print("[" + name + "]: processed " + mcount + " mosaics.");
+print("[" + name + "]: processed " + tileconfigs.length + " mosaics.");
 print("Overall duration: " + duration + "s");
 print(hr);
 
