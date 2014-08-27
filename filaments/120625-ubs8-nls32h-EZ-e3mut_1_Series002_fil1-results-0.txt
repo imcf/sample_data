@@ -1,0 +1,12 @@
+input filename;120625-ubs8-nls32h-EZ-e3mut_1_Series002_fil1-p3d-0.csv
+
+distance results
+largest distance points (indices);(50, 153)
+coordinates of point 50;[  8.82625294  96.89754486  29.47649002]
+coordinates of point 153;[ 11.62874508  73.79158783  28.28184509]
+distance;23.3059303405
+
+area results calculated by triangular tesselation
+longest transversal edge;8.0715458143210927
+overall area;82.368489496436879
+perimeter;55.812080923779796
